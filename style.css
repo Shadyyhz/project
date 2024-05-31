@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+
+
+.logo{
+    width: 300px;
+  }
+
+
+
+nav {
+    padding: 10px;
+    text-align: center;
+    box-shadow:1px 2px 3px 2px rgba(20, 20, 20, 0.158);
+    background-color: #f1f1f185;
+  }
+ nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+
+ 
+
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight:lighter;
+    font-size:large;
+  }
+
+  nav ul li a:hover {
+    text-decoration: none;
+    color:orange;
+    
+   
+  }
+
+
+
+  nav ul li a.active {
+    text-decoration:underline;
+    color:orange;
+   
+  }
+
+  .clearfix{
+    clear: both;
+  }
+
+
+
+.carouselll{
+    height: 400px;
+}
+
+.btCarousel{
+  background-color: #f1f1f1;
+  box-shadow:  2px 3px 4px rgba(20,20,20,0.4);
+}
+
+.h2Style,.h3Style{
+  
+  text-decoration: underline;
+  text-decoration-color: orange ;
+}
+
+.hover {
+  color:lightgrey;
+  text-decoration: none;
+
+}
+
+.hover:hover{
+  color: orange;
+}
+
+
+
+.hoverService{
+  
+  color: black;
+  text-decoration: none;
+  font-weight: 450;
+  font-size: large;
+}
+
+.hoverService:hover{
+  color: orange;
+}
+
+.hoverContact{
+  color: grey;
+  text-decoration: none;
+
+}
+
+.hoverContact:hover{
+  color: orange;
+}
+
+
+.hoverProjects{
+  
+  color: white;
+  text-decoration: none;
+}
+
+.hoverProjects:hover{
+  color: orange;
+}
+
+
+.styling{
+  color:black;
+  word-spacing: 1px;
+  
+}
+
+.btn{
+  border: none;
+  outline: none;
+   padding: 5px 20px;
+  font-size: 18px;
+  color: white;
+  background-color:#111111d5 ;
+  cursor: pointer;
+  margin: 10px auto;
+}
+
+.btn:hover{
+  background-color:orange;
+}
+
